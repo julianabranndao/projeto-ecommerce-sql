@@ -31,6 +31,7 @@ implementando a estrutura SQL completa e o **modelo EER**.
 projeto-ecommerce-sql/
 ├── docs/
 │ └── EER_Diagrama_Ecommerce.pdf
+  └── EER_Diagrama_Ecommerce.png
 ├── sql/
 │ ├── esquema_logico.sql
 │ └── inserts_teste.sql
