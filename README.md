@@ -96,8 +96,8 @@ COMMIT;
 │   ├── inserts_data_ecommerce.sql
 │   └── queries_solicitadas.sql
 │
-└── README.md ```
-
+└── README.md
+```
 
 ### 🧠 Etapa 4 – Queries Solicitadas
 
