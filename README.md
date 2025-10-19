@@ -99,19 +99,7 @@ Foram desenvolvidas consultas SQL para análise e validação do banco de dados,
 - Filtros em grupos com **HAVING**  
 - Ordenação e filtragem de dados com **ORDER BY**, **WHERE**, **DISTINCT**
 
-### 🧾 Estrutura do Repositório
 
-/projeto-ecommerce-sql
-│
-├── sql/
-│ ├── esquema_logico.sql
-│ ├── inserts_data_ecommerce.sql
-│ ├── queries_solicitadas.sql
-│
-├── EER_Diagrama.pdf
-├── EER_Diagrama.png
-└── README.md
-
-🧠 Autor
+### 🧠 Autor
 Juliana Brandão
 💼 Analista de Dados 📧 contato: (https://www.linkedin.com/in/julianabrandaosv/)
