@@ -70,6 +70,7 @@ Nesta etapa, foi realizada a **população do banco de dados** com dados genéri
 START TRANSACTION;
 -- blocos de inserção
 COMMIT;
+
 🔒 As operações são executadas de forma atômica e segura, garantindo integridade total dos dados.
 
 ---
