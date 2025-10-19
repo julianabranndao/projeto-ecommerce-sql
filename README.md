@@ -75,9 +75,9 @@ START TRANSACTION;
 
 -- Blocos de inserção de dados
 
-COMMIT;
+COMMIT; ```
 
----
+🔒 Se algo falhar no meio, nada é gravado parcialmente, garantindo integridade total dos dados.
 
 ---
 
@@ -95,7 +95,7 @@ COMMIT;
 │   ├── inserts_data_ecommerce.sql
 │   └── queries_solicitadas.sql
 │
-└── README.md
+└── README.md ```
 
 
 ### 🧠 Etapa 4 – Queries Solicitadas
