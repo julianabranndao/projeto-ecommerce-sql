@@ -75,7 +75,8 @@ START TRANSACTION;
 
 -- Blocos de inserção de dados
 
-COMMIT; ```
+COMMIT;
+```sql
 
 🔒 Se algo falhar no meio, nada é gravado parcialmente, garantindo integridade total dos dados.
 
