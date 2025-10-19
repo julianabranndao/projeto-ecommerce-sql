@@ -74,7 +74,7 @@ COMMIT;
 
 ---
 
-## 🧠 Etapa 4 – Queries Solicitadas
+### 🧠 Etapa 4 – Queries Solicitadas
 
 Foram desenvolvidas consultas SQL para análise e validação do banco de dados, aplicando conceitos de **JOINs**, **agrupamentos**, **filtros**, **expressões condicionais** e **funções agregadas**.
 
@@ -98,7 +98,7 @@ Foram desenvolvidas consultas SQL para análise e validação do banco de dados,
 - Filtros em grupos com **HAVING**  
 - Ordenação e filtragem de dados com **ORDER BY**, **WHERE**, **DISTINCT**
 
-## 🧾 Estrutura do Repositório
+### 🧾 Estrutura do Repositório
 
 /projeto-ecommerce-sql
 │
