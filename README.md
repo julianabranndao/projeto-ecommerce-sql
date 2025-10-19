@@ -22,8 +22,8 @@ O **diagrama EER** foi desenvolvido no MySQL Workbench representando a estrutura
 
 🧠 O diagrama está salvo e exportado em PDF e PNG como referência visual do modelo lógico.
 
-📄 Arquivos: [`Diagrama EER PDF`](docs/EER_Diagram_Ecommerce.pdf)
-             [`Diagrama EER PNG`](docs/EER_Diagram_Ecommerce.png)
+📄 Arquivos: [`EER_Diagrama.pdf`](docs/EER_Diagram_Ecommerce.pdf)
+             [`EER_Diagrama.png`](docs/EER_Diagram_Ecommerce.png)
 
 ---
 
@@ -31,7 +31,7 @@ O **diagrama EER** foi desenvolvido no MySQL Workbench representando a estrutura
 
 Nesta etapa foi definido o esquema lógico e implementadas todas as tabelas com suas respectivas **chaves primárias, estrangeiras e constraints**.
 
-📄 Arquivo: [`sql/create_schema.sql`](./sql/create_schema.sql)
+📄 Arquivo: [`BD Esquema Lógico`](sql/esquema_logico.sql)
 
 ### 🧱 Estrutura Geral:
 - `clients`, `client_pf`, `client_pj` → Especialização de clientes pessoa física e jurídica  
@@ -54,7 +54,7 @@ Nesta etapa foi definido o esquema lógico e implementadas todas as tabelas com 
 
 Nesta etapa, foi realizada a **população do banco de dados** com dados genéricos de teste, abrangendo todas as tabelas do modelo.
 
-📄 Arquivo: [`sql/inserts_data_ecommerce.sql`](./sql/inserts_data_ecommerce.sql)
+📄 Arquivo: [`Inserção de dados BD`](sql/inserts_data_ecommerce.sql)
 
 ### 🔍 Estrutura e Conteúdo:
 - **Clientes (clients)**: inserção de 6 clientes, sendo 3 PF e 3 PJ  
@@ -78,7 +78,7 @@ COMMIT;
 
 Foram desenvolvidas consultas SQL para análise e validação do banco de dados, aplicando conceitos de **JOINs**, **agrupamentos**, **filtros**, **expressões condicionais** e **funções agregadas**.
 
-📄 Arquivo: [`sql/queries_solicitadas.sql`](./sql/queries_solicitadas.sql)
+📄 Arquivo: [`Queries`](sql/queries_solicitadas.sql)
 
 ### 🔍 Consultas Implementadas:
 1. **Quantos pedidos foram feitos por cliente** (`GROUP BY`, `ORDER BY`)  
@@ -103,11 +103,12 @@ Foram desenvolvidas consultas SQL para análise e validação do banco de dados,
 /projeto-ecommerce-sql
 │
 ├── sql/
-│ ├── create_schema.sql
+│ ├── esquema_logico.sql
 │ ├── inserts_data_ecommerce.sql
 │ ├── queries_solicitadas.sql
 │
-├── EER_Model.pdf
+├── EER_Diagrama.pdf
+├── EER_Diagrama.png
 └── README.md
 
 🧠 Autor
