@@ -65,9 +65,10 @@ Nesta etapa, foi realizada a **população do banco de dados** com dados genéri
 - **Pedidos e Itens (orders, order_item)**: simulação de compras reais  
 - **Entrega (delivery)**: status logístico com código de rastreio e transportadora  
 
+
 ## ⚙️ Estrutura Transacional
 
-**Transações SQL garantem execução atômica e segura** durante a inserção.
+Transações SQL garantem execução **atômica e segura** durante a inserção.
 
 ```sql
 START TRANSACTION;
@@ -75,8 +76,6 @@ START TRANSACTION;
 -- Blocos de inserção de dados
 
 COMMIT;
-
-🔒 Se algo falhar no meio, nada é gravado parcialmente., garantindo integridade total dos dados.
 
 ---
 
