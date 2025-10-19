@@ -27,3 +27,26 @@ implementando a estrutura SQL completa e o **modelo EER**.
 ---
 
 ## 🧩 Estrutura de Pastas
+
+projeto-ecommerce-sql/
+├── docs/
+│ └── EER_Diagrama_Ecommerce.pdf
+├── sql/
+│ ├── esquema_logico.sql
+│ └── inserts_teste.sql
+└── README.md
+
+---
+
+## 💾 Ferramentas Utilizadas
+- **MySQL 8.0**
+- **MySQL Workbench** (para diagrama EER)
+- **Git / GitHub**
+
+---
+
+## 🧠 Autor
+**Juliana Brandão**  
+💼 Analista de Dados 
+📧 contato: (https://www.linkedin.com/in/julianabrandaosv/)
+
