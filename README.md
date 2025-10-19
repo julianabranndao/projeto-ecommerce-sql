@@ -22,8 +22,8 @@ O **diagrama EER** foi desenvolvido no MySQL Workbench representando a estrutura
 
 🧠 O diagrama está salvo e exportado em PDF e PNG como referência visual do modelo lógico.
 
-📄 Arquivos: [`sql/create_schema.sql`](docs/EER_Diagram_Ecommerce.pdf)
-             [`sql/create_schema.sql`](docs/EER_Diagram_Ecommerce.png)
+📄 Arquivos: [`Diagrama EER PDF`](docs/EER_Diagram_Ecommerce.pdf)
+             [`Diagrama EER PNG`](docs/EER_Diagram_Ecommerce.png)
 
 ---
 
