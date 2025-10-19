@@ -66,7 +66,7 @@ Nesta etapa, foi realizada a **população do banco de dados** com dados genéri
 - **Entrega (delivery)**: status logístico com código de rastreio e transportadora  
 
 ### ⚙️ Estrutura Transacional:
-```sql
+
 START TRANSACTION;
 -- blocos de inserção
 COMMIT;
