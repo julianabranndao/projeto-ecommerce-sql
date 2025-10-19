@@ -102,17 +102,11 @@ Foram desenvolvidas consultas SQL para análise e validação do banco de dados,
 ### 🧾 Estrutura do Repositório
 
 /projeto-ecommerce-sql
-
 │
-
 ├── sql/
-
 │ ├── esquema_logico.sql
-
 │ ├── inserts_data_ecommerce.sql
-
 │ ├── queries_solicitadas.sql
-
 │
 ├── EER_Diagrama.pdf
 ├── EER_Diagrama.png
