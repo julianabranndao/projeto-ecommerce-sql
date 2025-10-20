@@ -82,24 +82,7 @@ COMMIT;
 
 ---
 
-## 📁 Estrutura do Repositório
-
-```text
-/projeto-ecommerce-sql
-│
-├── docs/
-│   ├── EER_Diagrama.pdf
-│   └── EER_Diagrama.png
-│
-├── sql/
-│   ├── esquema_logico.sql
-│   ├── inserts_data_ecommerce.sql
-│   └── queries_solicitadas.sql
-│
-└── README.md
-```
-
-### 🧠 Etapa 4 – Queries Solicitadas
+### 🧠 Queries Solicitadas
 
 Foram desenvolvidas consultas SQL para análise e validação do banco de dados, aplicando conceitos de **JOINs**, **agrupamentos**, **filtros**, **expressões condicionais** e **funções agregadas**.
 
@@ -122,6 +105,27 @@ Foram desenvolvidas consultas SQL para análise e validação do banco de dados,
 - Criação de **atributos derivados** (`ROUND`, `CASE`)  
 - Filtros em grupos com **HAVING**  
 - Ordenação e filtragem de dados com **ORDER BY**, **WHERE**, **DISTINCT**
+
+---
+
+## 📁 Estrutura do Repositório
+
+```text
+/projeto-ecommerce-sql
+│
+├── docs/
+│   ├── EER_Diagrama.pdf
+│   └── EER_Diagrama.png
+│
+├── sql/
+│   ├── esquema_logico.sql
+│   ├── inserts_data_ecommerce.sql
+│   └── queries_solicitadas.sql
+│
+└── README.md
+```
+
+---
 
 
 ### 🧠 Autor
